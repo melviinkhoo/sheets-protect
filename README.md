@@ -9,6 +9,7 @@ What can Google Sheets Passcode Protection System do?
 
 
 Procedure to Implement the Google Sheet License/Passcode Protection System:
+
 Step 1. Open your Google Sheets Project. If you don't have one, create a new Google Sheets at sheets.new.
 
 Step 2. Click on Tools > Script Editor in the Google Sheet.
