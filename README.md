@@ -33,14 +33,17 @@ Example: requestFunc('Cre8tiveNow','fb.com/cre8tivenow','cre8tive.page.link/gene
 Step 7. Do not change the onOpen(e) function and onEdit(e) function. Input requestFunc('Your Company Name','Link to contact you','Link to get the Code'); to the top of all your function.
 *(optional) You can include checkReq(); on top of the requestFunc();. 
 
-Step 8. Once you save (be sure to backup a copy of all your code to a place just in case you messed up the current code). Then, copy all your code.*Once you saved, your Google Sheets projects will requires license/passcode to unlock or activate once refreshed.
+Step 8. Once you save (be sure to backup a copy of all your code to a place just in case you messed up the current code). Then, copy all your code.
+*Once you saved, your Google Sheets projects will requires license/passcode to unlock or activate once refreshed.
 
-Step 9. Go to https://obfuscator.io/ and paste your code to Copy & Paste JavaScript Code column. The click on Obfuscate.*Code obfuscator is to "encrypt" your code so that users will not be able to delete or remove your passcode/license function from the core function of your Google Sheets App Script project. It only make people harder to 'decrypt' your code but not impossible.
+Step 9. Go to https://obfuscator.io/ and paste your code to Copy & Paste JavaScript Code column. The click on Obfuscate.
+*Code obfuscator is to "encrypt" your code so that users will not be able to delete or remove your passcode/license function from the core function of your Google Sheets App Script project. It only make people harder to 'decrypt' your code but not impossible.
 
 Step 10. Copy the whole output and paste it back to the Google Sheets replacing all the code. (Make sure to backup your original coding at other place or other Sheets, as the code will be replaced with obfuscated code. Else, you will have hard time changing your original code)
 
 Step 11. Try each of the function of your Google Sheets Projects and make sure they work. Your Google Sheets Projects is now ready to sell. 
 *The pop out asking for passcode will stop pop out when correct passcode is inputted and Passcode Verified pop out. If no Passcode Verified pop out shows, it maybe due to timeout. Refresh the sheet and key-in the passcode again.
+
 
 **Selling your Google Sheets Project**
 1. Make sure to Share your Google Sheets and change it to anyone with the link can view.
@@ -51,8 +54,10 @@ Example: https://docs.google.com/spreadsheets/d/xxxx/edit change to https://docs
 3. They will get the pop-up requesting for license/passcode once they open the sheet or press on any function.
 *The pop out asking for passcode will stop pop out when correct passcode is inputted and Passcode Verified pop out. If no Passcode Verified pop out shows, it maybe due to timeout. Refresh the sheet and key-in the passcode again.
 
+
+
 **Preparing your License/Passcode Generator**
 1. An easy way  is to create a new Google Sheets (sheets.new) for  code generation using formula.
 
-2. You can use this example for your generator. Key in user's Sheet ID in column B3:B and the license/passcode will show at the passcode/license column. Copy the license/passcode to your user  to unlock/activate their Google Sheets.
+2. You can use this example for your generator. Key in user's Sheet ID in column B3:B and the license/passcode will show at the passcode/license column. Copy the license/passcode to your user  to unlock/activate their Google Sheets.
 *You can change the formula in the Example Code Generator Sheet to suit your passcode/license formula.
