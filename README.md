@@ -15,7 +15,7 @@ Step 1. Open your Google Sheets Project. If you don't have one, create a new Goo
 
 Step 2. Click on Tools > Script Editor in the Google Sheet.
 
-Step 3. Open https://cre8tive.page.link/protect-script. The script is read-only but you can copy all the code inside and paste it (replace) at your Google Sheets Script Editor.
+Step 3. Open https://github.com/melviinkhoo/sheets-protect/blob/main/code. The script is read-only but you can copy all the code inside and paste it (replace) at your Google Sheets Script Editor.
 
 Step 4. The current basic level sample uses the Google Sheets ID first 6 characters as the license. For example, Google Sheet ID: 1c2g-lj2FPDAtbyacWhjiMUVFpm_uKK9qz_-j0pYRbdM, the license/passcode to unlock will be 1c2g-l.
 *Google Sheet ID can be found on the URL of Google Sheet (not App Script) just between the "/d/" and "/edit" . 
