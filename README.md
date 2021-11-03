@@ -49,7 +49,7 @@ Step 11. Try each of the function of your Google Sheets Projects and make sure t
 1. Make sure to Share your Google Sheets and change it to anyone with the link can view.
 
 2. You can ask user/customer to make-a-copy of the Google Sheets by replacing the URL of /edit to /copy. 
-Example: https://docs.google.com/spreadsheets/d/xxxx/edit change to https://docs.google.com/spreadsheets/d/xxxx/copy
+Example: https://docs.google.com/spreadsheets/d/xxxx/edit change to https://docs.google.com/spreadsheets/d/xxxx/copy
 
 3. They will get the pop-up requesting for license/passcode once they open the sheet or press on any function.
 *The pop out asking for passcode will stop pop out when correct passcode is inputted and Passcode Verified pop out. If no Passcode Verified pop out shows, it maybe due to timeout. Refresh the sheet and key-in the passcode again.
