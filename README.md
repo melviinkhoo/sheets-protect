@@ -1,5 +1,5 @@
 # sheets-protect
-Google Sheet Passcode Protection System uses Google App Script and JavaScript Obfuscator Tool to protect your Google Sheet with Passcode. 
+**Google Sheet Passcode Protection System** uses Google App Script and JavaScript Obfuscator Tool to protect your Google Sheet with Passcode. 
 
 What can Google Sheets Passcode Protection System do?
 - Allows you to protect your Google Sheets projects with a passcode so that you could sell your Google Sheets project.
