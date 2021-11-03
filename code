@@ -1,0 +1,66 @@
+// Basic Encryption System Sample
+// provided by Cre8tiveNow.com
+//Learn more about this system at cre8tive.page.link/youtube
+
+/*--------------------------------------------------------------*/
+
+// Function to check whether if correct passcode is being inputted
+function requestFunc(companyName,contactUrl,getCodeUrl) {
+var ui = SpreadsheetApp.getUi();
+  var check = SpreadsheetApp.getActiveSpreadsheet();
+  var request = check.getId();
+ var scrp = PropertiesService.getScriptProperties();
+ var inx = scrp.getProperty('iny');
+  
+  while(inx=="" || inx==undefined){
+var response = ui.prompt('Enter Passcode to proceed', 'Please enter the passcode to proceed using the Google Sheet', ui.ButtonSet.YES_NO);  
+  
+
+  if (response.getSelectedButton() == ui.Button.YES) {
+    
+ //Put your passcode generation or verification here OR you can use the following basic fixed passcode
+  var dis = request.substring(0,6);
+    
+    if(response.getResponseText()==dis){
+      scrp.setProperty('iny',response.getResponseText());
+      ui.alert('Passcode Verified! You may continue to use the Google Sheet')
+      break;
+    }  else{
+ui.alert('Wrong passcode, unable to proceed.\n Get your passcode at '+getCodeUrl+'\n\n Contact '+companyName+' via '+contactUrl);
+
+    }
+        
+} 
+  
+}}
+
+//Make-a-copy proof Function, check whether the sheet is being copied without inputting correct passcode
+function checkReq(){
+  var check = SpreadsheetApp.getActiveSpreadsheet();
+  var request = check.getId();
+ var scrp = PropertiesService.getScriptProperties();
+ var inp = scrp.getProperty('iny');
+  
+  var dis = request.substring(0,6);
+
+  if(dis!=inp){
+      scrp.setProperty('iny',"");
+  }
+}
+
+//Insert the requestFunc('Your Company Name','Link to contact you','Link to get the Code'); in the beginning of each function [including onOpen() and OnEdit()] so that system will prevent users from running any function without correct passcode.
+
+function onOpen(e){
+  checkReq();
+requestFunc('Your Company Name','Link to contact you','Link to get the Passcode/License');
+}
+
+function onEdit(e){
+  //checkReq(); //This function can be enabled or disable. This function is to make sure that the Google Sheet is make-a-copy proof
+requestFunc('Your Company Name','Link to contact you','Link to get the Passcode/License');
+}
+
+
+//Remember to Obfuscate your code at https://obfuscator.io/ and paste it to your Google Sheet App Script Project
+
+//Purchase the advance Google Sheet Passcode Protection System at: 
