@@ -21,7 +21,11 @@ Step 4. The current basic level sample uses the Google Sheets ID first 6 charact
 *Google Sheet ID can be found on the URL of Google Sheet (not App Script) just between the "/d/" and "/edit" . 
 
 Step 5. If you have JavaScript / Google App Script programming knowledge, you can change the "dis = " to any passcode/license that you wish. We recommend you not to use a fix passcode / license, instead use the Google Sheet ID and your customized standard formula as the passcode/license. If you don't have any programming knowledge, do not change any of the code!
-*The reason behind some random variable like the following is use is to further increase the difficulty of others to guess the correct passcode/license from your code. You can change the variable name to anything you like:-requestFunc() - Function that checks whether if the passcode/license is inputted previously.checkReq() - Function that checks  whether if the passcode/license saved in Script Properties is correct. This function is for make-a-copy proof. inx - passcode/license that input by users stored in Script Properties as "iny" of the Google Sheets Projects. The program will not prompt for passcode/license if correct passcode/license is inputted and stored in "iny".dis - correct passcode/license string/formula.
+*The reason behind some random variable like the following is use is to further increase the difficulty of others to guess the correct passcode/license from your code. You can change the variable name to anything you like:
+- requestFunc() : Function that checks whether if the passcode/license is inputted previously.
+- checkReq() : Function that checks  whether if the passcode/license saved in Script Properties is correct. This function is for make-a-copy proof. 
+- inx : passcode/license that input by users stored in Script Properties as "iny" of the Google Sheets Projects. The program will not prompt for passcode/license if correct passcode/license is inputted and stored in "iny".
+- dis : correct passcode/license string/formula.
 
 Step 6. Replace ALL the "Your Company Name", "Link that customer able to contact you" and "Link to get the license/passcode" to your information. This will show as error message when users input the wrong passcode/license. Refer to the picture at the bottom of the page.
 Example: requestFunc('Cre8tiveNow','fb.com/cre8tivenow','cre8tive.page.link/generate');
