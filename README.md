@@ -21,9 +21,9 @@ Step 4. The current basic level sample uses the Google Sheets ID first 6 charact
 *Google Sheet ID can be found on the URL of Google Sheet (not App Script) just between the "/d/" and "/edit" . 
 
 Step 5. If you have JavaScript / Google App Script programming knowledge, you can change the "dis = " to any passcode/license that you wish. We recommend you not to use a fix passcode / license, instead use the Google Sheet ID and your customized standard formula as the passcode/license. If you don't have any programming knowledge, do not change any of the code!
-*The reason behind some random variable like the following is use is to further increase the difficulty of others to guess the correct passcode/license from your code. You can change the variable name to anything you like:
-- requestFunc() : Function that checks whether if the passcode/license is inputted previously.
-- checkReq() : Function that checks  whether if the passcode/license saved in Script Properties is correct. This function is for make-a-copy proof. 
+*The reason behind some random variable like the following is use is to further increase the difficulty of others to guess the correct passcode/license from your code. You can change the variable name to anything you like:
+- requestFunc() : Function that checks whether if the passcode/license is inputted previously.
+- checkReq() : Function that checks  whether if the passcode/license saved in Script Properties is correct. This function is for make-a-copy proof. 
 - inx : passcode/license that input by users stored in Script Properties as "iny" of the Google Sheets Projects. The program will not prompt for passcode/license if correct passcode/license is inputted and stored in "iny".
 - dis : correct passcode/license string/formula.
 
@@ -43,7 +43,7 @@ Step 11. Try each of the function of your Google Sheets Projects and make sure t
 *The pop out asking for passcode will stop pop out when correct passcode is inputted and Passcode Verified pop out. If no Passcode Verified pop out shows, it maybe due to timeout. Refresh the sheet and key-in the passcode again.
 
 **Selling your Google Sheets Project**
-1. Make sure to Share your Google Sheets and change it to anyone with the link can view.
+1. Make sure to Share your Google Sheets and change it to anyone with the link can view.
 
 2. You can ask user/customer to make-a-copy of the Google Sheets by replacing the URL of /edit to /copy. 
 Example: https://docs.google.com/spreadsheets/d/xxxx/edit change to https://docs.google.com/spreadsheets/d/xxxx/copy
