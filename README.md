@@ -8,7 +8,8 @@ What can Google Sheets Passcode Protection System do?
 - Make-a-copy proof, the copy will require license/passcode activation again even users make-a-copy after getting verified.
 
 
-Procedure to Implement the Google Sheet License/Passcode Protection System:
+
+**Procedure to Implement the Google Sheet License/Passcode Protection System:**
 
 Step 1. Open your Google Sheets Project. If you don't have one, create a new Google Sheets at sheets.new.
 
