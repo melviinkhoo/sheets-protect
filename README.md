@@ -62,4 +62,4 @@ Example: https://docs.google.com/spreadsheets/d/xxxx/edit change to https://docs
 2. You can use this example for your generator. Key in user's Sheet ID in column B3:B and the license/passcode will show at the passcode/license column. Copy the license/passcode to your user  to unlock/activate their Google Sheets.
 *You can change the formula in the Example Code Generator Sheet to suit your passcode/license formula.
 
-**More info @ https://protect.cre8tivenow.com/**
+**More info for advanced protection system @ https://protect.cre8tivenow.com/**
